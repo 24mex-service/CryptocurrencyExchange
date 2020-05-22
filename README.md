@@ -1,355 +1,347 @@
 # crypto-exchange
 
-## 项目介绍 -- 24MEX GODMEX
+## Project Introduction
 
-**目前最火的数字货币差价合约交易所系统、获客最快盈利最快的新型交易所**
+**Digital currency CFD exchange system, new exchange with the fastest profit and the fastest profit**
 
-指数型差价合约交易所系统、ICFD 指数型差价合约交易所、BTC 比特币杠杠交易、领先数字货币杠杆交易所（高达 100 倍杠杆）
+Index CFD Exchange System, ICFD Index CFD Exchange, BTC Bitcoin Leverage Trading, Leading Digital Currency Leverage Exchange (up to 100 times leverage)
 
-BTC 杠杆交易,比特币杠杆交易，ETH 杠杆交易,以太坊杠杆交易,数字货币杠杆交易、支持比特币杠杆交易、以太坊杠杆交易，等各类主流货币杠杆交易。最高百倍杠杆、边挖 BTC、ETH、BCH、LTC、XRP，边交易。
+BTC leveraged transaction, Bitcoin leveraged transaction, ETH leveraged transaction, Ethereum leveraged transaction, digital currency leveraged transaction, support Bitcoin leveraged transaction, Ethereum leveraged transaction, and other mainstream currency leveraged transactions Up to one hundred times leverage, dig BTC, ETH, BCH, LTC, XRP while trading.
 
-数字货币比特币 BTC 微盘交易系统开发、数字货币比特币 BTC 微交易系统，数字货币比特币 BTC 合约系统
+Digital currency Bitcoin BTC micro-disk trading system development, digital currency Bitcoin BTC micro trading system, digital currency Bitcoin BTC contract system
 
-24MEX、GODMEX 交易所系统软件开发，全部源码开放对接
+Exchange system software development, open source docking of all source code
 
-商务合作 QQ：2295323586
-技术对接 QQ：616083587
+Contact Email: `angkee@qq.com`
 
-## 平台交易介绍
+## Platform trading introduction
 
-平台交易模式的特点是平台自身不产生价格，从而保证价格的公正性，交易用户及流动性供应商之间只围绕指数价格进行报价和撮合，系统平仓采用指数价格，从而避免期货类交易所因价格偏离或被操纵而被迫爆仓。
+The characteristic of the platform trading mode is that the platform itself does not generate prices, thereby ensuring the fairness of the price. Trading users and liquidity providers only quote and match around the index price, and the system uses the index price to close the position, thereby avoiding futures exchanges. Due to price deviation or manipulation, it was forced to liquidate.
 
-指数型差价合约使用杠杠交易，最高 100 倍，以少量的保证金购买 N 倍的数字货币，同股票期货交易一样，盈利或者亏损由您买入和卖出价格决定，同时支持买涨和买跌。最大优势是最少的钱，买最多的币，赚更多的钱！
+Index-type CFDs use leverage trading, up to 100 times, and buy N times of digital currency with a small amount of margin. Like stock futures trading, profit or loss is determined by your buying and selling prices, and supports buying and selling. The biggest advantage is the least money, buy the most coins and make more money!
 
-支持多空双向交易，保证金低至 1%，收益放大 100 倍。
+Support long and short two-way transactions, the margin is as low as 1%, and the gain is amplified by 100 times.
 
-## 产品优势
+## Product advantages
 
-### 1.强制平仓
+### 1.Forced liquidation
 
-平仓收益率 80%+，极大的保证交易所交易收益。
+The return rate of closing positions is 80% +, which greatly guarantees the exchange trading returns.
 
-### 2.连续报价
+### 2.Continuous quotation
 
-7×24 小时连续报价自由交易。
+7 × 24 hours continuous quote free trading.
 
-### 3.USDT 出入金
+### 3.USDT OTC
 
-规避政策风险，支持 24 小时无忧出入金，场外交易系统自动审核。
+Avoid policy risks, support worry-free 24-hour deposits and withdrawals, and over-the-counter trading system automatic review.
 
-### 4.无涨跌幅
+### 4.No increase or decrease
 
-数字货币没有涨跌幅限制，无强制交割机制，是永续合约交易机制。
+There is no limit to the rise and fall of digital currencies, and there is no mandatory delivery mechanism. It is a perpetual contract trading mechanism.
 
-### 5.安全可靠
+### 5.Safe and reliable
 
-资产存储多重签名冷钱包 保障资金安全。
+Asset storage multi-signature cold wallet to ensure the safety of funds.
 
-### 6.交易便捷
+### 6.Easy transaction
 
-部署平台覆盖 iOS、Android、PC、H5 多个平台
+Deployment platform covers iOS, Android, PC, H5 multiple platforms
 
-### 7.用户体验强
+### 7.user experience
 
-客户使用门槛低，只需判断趋势买涨买跌既有机会盈利。
+The threshold for customers to use is low, and they only need to judge the trend to buy up and down and have the opportunity to make a profit.
 
-### 8. 多语言支持
+### 8. Multilingual support
 
-支持中文、英文、韩文等多语言自定义配置
+Support multi-language custom configuration such as Chinese, English, Korean
 
-## 支持功能：
+## Support:
 
-### 罗列已全部实现完成
+> Multiple trading pairs
 
-> 多交易对
+- [x] Trading pairs with USDT and BTC as denominated currencies
 
-- [x] 目前支持 USDT、BTC 为计价币的交易对
+> Real trading
 
-> 实盘交易
+- [x] Support more than ten kinds of digital currencies（BTC、ETH、EOS、LTC、USDT、XRP、BCH）
+- [x] K Line
+- [x] Order mode: market order, trigger order；
+      1、Market order: no need to set the transaction price, directly deal with the opponent's price in the market at that time。
+      2、Triggered order: when the price you specified arrives, the transaction will be executed at the current market counterparty price。
 
-- [x] 支持十余种数字货币（BTC、ETH、EOS、LTC、USDT、XRP、BCH 等）
-- [x] K 线绘制 (自实现非插件)
-- [x] 下单模式：市价下单、触发下单；
-      1、市价下单:不需要设定成交价格，直接按当时市场的对手价成交。
-      2、触发下单:当您指定的价格到达后，按当时市场的对手价成交。
+- [x] Place an order (buy up, buy down)；
+      1. Place an order in the standard version.
+      2. Place an order in the Professional Edition.
+      3. Place orders in the quick version.
 
-- [x] 下单(买涨、买跌)；
-      1、标准版下单。
-      2、专业版下单。
-      3、快速版下单。
+- [x] Cancel order
+- [x] Place orders up to 100 times
+- [x] Customized stop loss and profit setting
+- [x] Automatic liquidation
+- [x] Charge a handling fee
+- [x] Overnight charge
+- [x] Overnight fee is not enough to close the position
+- [x] Take Profit and Stop Loss triggers liquidation
+- [x] Firm position
+- [x] Support red envelope deduction
+- [x] Calculator to simulate income 
 
-- [x] 撤单
-- [x] 批量撤单
-- [x] 最高 100 倍下单，
-- [x] 自定义止损止盈设置
-- [x] 自动平仓
-- [x] 收取手续费
-- [x] 过夜费收取
-- [x] 过夜费不足平仓
-- [x] 止盈止损触发平仓
-- [x] 实盘持仓
-- [x] 支持红包抵扣
-- [x] 计算器模拟收益 
+> Simulated trading
 
-> 模拟交易
+- [x] Same function as real trading
+- [x] Use platform currency transactions to simulate transactions
 
-- [x] 功能同实盘交易
-- [x] 采用平台币交易的方式模拟交易
+> Digital currency mining
 
-> 数字货币挖矿
+- [x] Support mainstream digital currency mining（BTC、ETH、EOS、LTC、USDT、XRP）
+- [x] Support the platform's own coin mining
+- [x] Support mainstream digital one-key exchange for stable currency
+- [x] Support configuration tasks, regular and quantitative mining rewards
+- [x] Support to configure user task mining rewards (registration, simulation, recharge, transaction, etc.)
 
-- [x] 支持 6 种主流数字货币挖矿（BTC、ETH、EOS、LTC、USDT、XRP）
-- [x] 支持平台自身币挖矿
-- [x] 支持主流数字一键兑换稳定币
-- [x] 支持配置任务，定时、定量挖矿奖励
-- [x] 支持配置用户任务挖矿奖励（注册、模拟、充值、交易等）
+> Market docking
 
-> 行情对接
+- [x] Huobi trading
+- [x] OKEX trading
+- [x] binance trading
 
-- [x] 火币交易行情
-- [x] OKEX 交易行情
-- [x] 币安交易行情
+> News
 
-> 快讯
+- [x] Alert list + push
+- [x] News crawler crawling automatic update
 
-- [x] 快讯列表+推送
-- [x] 快讯爬虫抓取自动更新
+> User
 
-> 用户
+- [x] Support Phone、Email Login
+- [x] Login, Register
+- [x] Find Password
+- [x] Modify Password
+- [x] Balance Details
+- [x] User Verified
+- [x] Email Bind
+- [x] Phone Bind
+- [x] Bind bank card
+- [x] Bind withdrawal address
+- [x] Transaction settings
 
-- [x] 多重模式注册（手机、邮箱）
-- [x] 登录、退出
-- [x] 找回密码
-- [x] 修改密码
-- [x] 资金明细
-- [x] 实名认证
-- [x] 邮箱绑定
-- [x] 手机绑定
-- [x] 绑定银行卡
-- [x] 绑定微信支付宝支付
-- [x] 绑定提币地址
-- [x] 交易设置
+> Recharge
 
-> 充值
+- [x] Digital currency wallet recharge
+- [x] C2C Direct purchase of digital currency in fiat currency
+- [x] Recharge record
 
-- [x] 数字货币钱包充值
-- [x] C2C 法币直接购买数字货币
-- [x] 充值记录
+> Withdraw
 
-> 提币
+- [x] Withdrawal of digital currency wallet
+- [x] C2C Sell digital currency directly for fiat currency
+- [x] Account transfer
+- [x] Withdrawal record
 
-- [x] 数字货币钱包提币
-- [x] C2C 出售数字货币直接换法币
-- [x] 站内账号简划转
-- [x] 提币记录
+> C2C Transaction status management
 
-> C2C 交易状态管理
+- [x] Deposit confirmation
+- [x] Withdrawal confirmation
 
-- [x] 充币确认数
-- [x] 提币确认
+> Customer Service System
 
-> 客服系统
+- [x] Customer service online chat
+- [x] User notification mechanism
+- [x] Status notification (transaction, liquidation, deposit, withdrawal)
 
-- [x] 客服在线聊天(一对一)
-- [x] 用户通知机制
-- [x] 状态通知（交易、平仓、充币、提币）
+> Help center
 
-> 帮助中心
+> Invitation mechanism
 
-- [x] 列表模式
+- [x] Invitation commission reward mechanism
+- [x] Invite friends list
+- [x] Invitation poster automatically generated
+- [x] Invitation Code
+- [x] Invite friends to get a commission of 30% rebate
+- [x] Set level rebate L1-10%、L2-20%、L3-30%
 
-> 邀请机制
+## 6 new activity landing pages
 
-- [x] 邀请佣金奖励机制
-- [x] 邀请好友列表
-- [x] 邀请海报自动生成
-- [x] 邀请口令
-- [x] 邀请好友可获得手续费 30%返佣
-- [x] 等级返佣 L1-10%、L2-20%、L3-30%，根据不同的等级进行设置返佣
+It can be used directly for marketing and promotion, and can be directly used with advertisers
 
-## 新增活动落地页 6 个
+- [x] Event leaflet
+- [x] Advertising registration page
+- [x] Lottery guide page
 
-方便直接可以用于市场推广及宣传，可直接与广告商接入使用
+## Quote Management
 
-- [x] 活动宣传页
-- [x] 广告注册页
-- [x] 抽奖引导页
+### One-click market recovery
 
-## 行情管理
+Quick one-key recovery of market (K line), suitable for repair of service termination or problems
 
-### 行情一键恢复
-可快速一键恢复行情（K线），适用服务终止或出问题等情况的修复
+## Market correction (price release)
 
-## 行情修正（价格发布）
-可定制化的修复价格行情
+Customizable repair prices
 
-- [x] 可修正过去
-- [x] 可修改当下
-- [x] 可预设未来时间点
+- [x] Can correct the past
+- [x] Can modify the present
+- [x] Can preset the future time
 
-注意：该功能主要是用于修正剧烈行情震荡给用户来带不必要的损失，请勿做他用
+Note: This function is mainly used to correct severe market shocks to bring unnecessary losses to users, please do not use it for other purposes
 
+## Flow review
 
-## 流水复核
-> 可针对所有用户进行多维度的流水校验和复核，自动计算复核结果，用于用户提币转账等关键操作校验
+> Multi-dimensional pipeline verification and review can be performed for all users, and the results of the review can be automatically calculated for verification of key operations such as user withdrawal and transfer
 
-## 报表统计导出
-> 关键数据统计，均有可筛选条件的数据统计及数据导出功能
-> 自选时间段和数据类型，进行数据统计导出，包括下单、盈亏、手续费、充、提、奖、穿仓等分类选择
+## Report statistics export
 
-## 后台管理
+> Key data statistics, with data statistics and data export functions that can filter conditions
+> Choose the time period and data type, and export the data statistics, including order selection, profit and loss, handling fee, deposit, withdrawal, prize, and position selection
 
-> 数据统计
+## Backstage management
 
-- [x] 用户统计
-- [x] 订单统计
-- [x] 资产统计
+> Statistics
 
-> 交易管理
+- [x] User statistics
+- [x] Order statistics
+- [x] Asset statistics
 
-- [x] 币种管理
-- [x] 订单管理
-- [x] 流水管理
-- [x] 交易设置
+> Transaction management
 
-> 用户管理
+- [x] Currency management
+- [x] Order management
+- [x] Trade management
 
-- [x] 用户管理
-- [x] 用户认证
-- [x] 支付管理
-- [x] 验证码管理
-- [x] 用户日志
-- [x] 分类管理
+> User management
 
-> 挖币管理
+- [x] User management
+- [x] User Verified
+- [x] Pay management
+- [x] Verify code management
+- [x] user log
+- [x] category management
 
-- [x] 币种管理
-- [x] 挖币记录
+> Mining management
 
-> 平台币生态
+- [x] Currency management
+- [x] Mining records
 
-- [x] 平台币挖矿
-- [x] 商品兑换
+> Platform coin
 
-> 财务管理
+- [x] Platform coin mining
+- [x] Commodity exchange
 
-- [x] 资产总览
-- [x] 充币审核
-- [x] 充币记录
-- [x] 提币审核
-- [x] 提币记录
-- [x] 发放奖励
+> Financial Management
 
-> 钱包管理
+- [x] Asset Overview
+- [x] Deposit review
+- [x] Deposit Record
+- [x] Withdrawal review
+- [x] Withdrawal record
+- [x] Awards
 
-- [x] 充值钱包
-- [x] 提币钱包
+> Wallet management
 
-> 行情管理
+- [x] Recharge wallet
+- [x] Withdrawal wallet
 
-- [x] 行情设置
+> Quote Management
 
-> 新闻管理
+- [x] Quote settings
 
-- [x] 新闻列表
-- [x] 爬虫设置
-- [x] 发布新闻
+> News management
 
-> 客服管理
+- [x] news list
+- [x] distribute news
 
-- [x] 消息设置
-- [x] 客户对话，实时客户对话解答
+> distribute news
 
-> 系统设置
-- [x] 全站交易设置
-- [x] 群发信息
-- [x] 管理员设置
+- [x] Message settings
+- [x] Customer dialogue, real-time customer dialogue answer
 
-## 平台币发行
+> System settings
+- [x] Station-wide trading settings
+- [x] Mass messaging
+- [x] Administrator settings
 
-基于以太坊的标准智能合约系统发行的 ERC20 平台币，目前已实现平台币挖矿、兑换等功能。
+## Platform coin issuance
 
-后期将考虑加入抵扣、挖矿、交易等，逐步完善。
+The ERC20 platform currency issued based on Ethereum's standard smart contract system has now achieved platform currency mining and exchange functions.
 
-## 钱包管理
+## Wallet management
 
-- [x] 自动分配（账户注册后自动分配冷钱包地址）
-- [x] 自动充值（充值自动入账到用户账号，自动扫描区块）
-- [x] 自动提币，自动风控校验出币（多重签名、单笔转币、批量合并转币），可设置人工审核出币
+- [x] Automatic allocation (automatically allocate cold wallet address after account registration)
+- [x] Automatic recharge (recharge automatically into the user account, automatically scan the block)
+- [x] Automatic coin withdrawal, automatic risk control and verification of coin output (multi-signature, single transfer, batch merged transfer), manual verification of coin withdrawal can be set
 
-## 合约交易介绍
+## Contract transaction introduction
 
-平台交易模式的特点是平台自身不产生价格，从而保证价格的公正性，交易用户及流动性供应商之间只围绕指数价格景象报价和撮合，系统平仓采用指数价格，从而避免期货类交易所因价格偏离或被操纵而被迫爆仓。
+The characteristic of the platform trading model is that the platform itself does not generate prices, thereby ensuring the fairness of prices. Trading users and liquidity providers only quote and match around the index price scene, and the system uses the index price to close positions, thereby avoiding futures exchange Due to price deviation or manipulation, it was forced to liquidate.
 
-指数型差价合约使用杠杠交易，最高 100 倍，以少量的保证金购买 N 倍的数字货币，同股票期货交易一样，盈利或者亏损由您买入和卖出价格决定，同时支持买涨和买跌。最大优势是最少的钱，买最多的币，赚更多的钱！
+Index-type CFDs use leverage trading, up to 100 times, and buy N times of digital currency with a small amount of margin. Like stock futures trading, profit or loss is determined by your buying and selling prices, and supports buying and selling. The biggest advantage is the least money, buy the most coins and make more money!
 
-支持多空双向交易，保证金低至 1%，收益放大 100 倍。
+Support long and short two-way transactions, the margin is as low as 1%, and the gain is amplified by 100 times.
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/def.png" width="720" height="300"/>
 
-## 交易举例
+## Transaction example
 
-### 买涨举例：
+### Examples of buying up:
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/buy1.png" width="558" height="413"/>
-比特币价格 50000，
-您有 50000，
+Bitcoin price 50000,
+You have 50000,
 
-现货交易：
-50000 只能购买 1 个比特币，当比特币上涨 10%，您的收益为 5000
+Spot Trading:
+50000 can only buy 1 bitcoin, when bitcoin rises 10%, your income is 5000
 
-差价合约交易：
-1 个比特币的购买保证金按 1000 算，50000 元能买 50 个比特币，当比特币上涨 10%后，您的收益为 250000，收益翻 50 倍
+CFD trading:
+The purchase deposit of 1 bitcoin is calculated as 1000, and 50 bitcoins can be purchased for 50,000 yuan. When bitcoin rises 10%, your income is 250,000, and the income doubles 50 times.
 
-### 买跌举例：
+### Examples of buying and selling:
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/buy2.png" width="558" height="413"/>
-比特币价格 50000，
-您有 50000，
+Bitcoin price 50000,
+You have 50000,
 
-现货交易：
-不支持买跌，无法进行交易！
+Spot Trading:
+Does not support buying and falling, can not trade!
 
-差价合约交易：
-1 个比特币的购买保证金按 1000 算，50000 元能买 50 个比特币，当比特币下跌 10%后，您又赚了 250000
+CFD trading:
+The purchase margin of 1 bitcoin is calculated as 1000, and 50,000 yuan can buy 50 bitcoins. When bitcoin drops by 10%, you earn another 250,000
 
-## 说明
+## Description
 
-该系统考虑周全，本有计划自己团队折腾，所以从开发、设计、效率、运营、成本等情况都有做优化，基本技术上只要简单 1-2 维护人即可平稳运行。
+The system is well-thought-out and originally planned to be tossed by its own team, so it has been optimized from development, design, efficiency, operation, cost, etc. Basically, as long as it is simple 1-2 maintainers can run smoothly.
 
-## 部分截图
+## Partial screenshot
 
-## 前端展示
+## Frontend display
 
-### 交易页面
+### Transaction page
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/trade.png" width="365" height="619"/>
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/trade.gif" width="365" height="619"/>
 
-### 挖矿页面
+### Mining page
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/mine.png" width="365" height="619"/>
 
-### 充值提币
+### Deposit and Withdraw Coin
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/sell.png" width="365" height="619"/>
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/buy.png" width="365" height="619"/>
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/tibi.png" width="365" height="619"/>
 
-## 后台管理
+## Backstage management
 
-### 交易对管理
+### Trading pair management
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/contract.png" width="975" height="468"/>
 
-### 流水管理
+### Flow management
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/record.png" width="975" height="468"/>
 
-### 用户充值
+### User recharge
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/recharge.png" width="975" height="468"/>
 
-### 订单管理
+### Order management
 
 <img src="https://github.com/god-exchange/god-exchange/blob/master/demo/images/order.png" width="975" height="468"/>
