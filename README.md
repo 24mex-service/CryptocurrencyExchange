@@ -12,7 +12,7 @@ Digital currency Bitcoin BTC micro-disk trading system development, digital curr
 
 Exchange system software development, open source docking of all source code
 
-Contact Email: `angkee@qq.com`
+Telegram：+1 267-719-3749 
 
 ## Platform trading introduction
 
