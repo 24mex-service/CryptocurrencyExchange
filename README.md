@@ -12,7 +12,7 @@ Digital currency Bitcoin BTC micro-disk trading system development, digital curr
 
 Exchange system software development, open source docking of all source code
 
-QQ：193043374
+Telegram:+601163867209
 
 ## Platform trading introduction
 
